@@ -25,7 +25,7 @@ and we set 3600*24 (86400, 1 day) as prediction time.
                      
 For aps   dataset：
                      
-we use 365*3 (1095, 3 years) or 365*5+1 (1826, 5 years)or 365*7+1 (2556, 7 years) as observation time
+we use 365x3 (1095, 3 years) or 365x5+1 (1826, 5 years)or 365x7+1 (2556, 7 years) as observation time
 and we set 365*20+5 (7305, 20 years) as prediction time.
 
 The datasets we used in the paper come from:
