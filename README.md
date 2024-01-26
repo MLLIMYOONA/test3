@@ -20,13 +20,13 @@ pip install -r requirements.txt
 ### Observation and prediction time settings:
 For weibo dataset：
                      
-we use 1800 (0.5 hour) or 3600 (1 hour) or 7200 (2 hour) as observation time
-and we set 3600*24 (86400, 1 day) as prediction time.
+we use 1800 (0.5 hour) or 3600 (1 hour) or 7200 (2 hour) as observation time.
+And we set 3600*24 (86400, 1 day) as prediction time.
                      
 For aps   dataset：
                      
-we use 365x3 (1095, 3 years) or 365x5+1 (1826, 5 years)or 365x7+1 (2556, 7 years) as observation time
-and we set 365*20+5 (7305, 20 years) as prediction time.
+we use 365x3 (1095, 3 years) or 365x5+1 (1826, 5 years)or 365x7+1 (2556, 7 years) as observation time.
+And we set 365*20+5 (7305, 20 years) as prediction time.
 
 The datasets we used in the paper come from:
 - [Weibo](https://github.com/CaoQi92/DeepHawkes) (Cao *et al.*, [DeepHawkes: Bridging the Gap between 
