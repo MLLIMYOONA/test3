@@ -21,7 +21,6 @@ The datasets we used in the paper come from:
 Prediction and Understanding of Information Cascades](https://dl.acm.org/doi/10.1145/3132847.3132973), CIKM, 2017). 
 - [APS](https://journals.aps.org/datasets) (Released by *American Physical Society*, obtained at Jan 17, 2019).  
 
-Make sure the dataset.txt file of aps and weibo are in "data/aps/" and "data/weibo/" directories
 
 ### Run the code
 ```shell
