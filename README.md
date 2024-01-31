@@ -31,7 +31,11 @@ And we set 365x20+5 (7305, 20 years) as prediction time.
 The datasets we used in the paper come from:
 - [Weibo](https://github.com/CaoQi92/DeepHawkes) (Cao *et al.*, [DeepHawkes: Bridging the Gap between 
 Prediction and Understanding of Information Cascades](https://dl.acm.org/doi/10.1145/3132847.3132973), CIKM, 2017). 
-- [APS](https://journals.aps.org/datasets) (Released by *American Physical Society*, obtained at Jan 17, 2019).  
+- [APS](https://journals.aps.org/datasets) (Released by *American Physical Society*, obtained at Jan 17, 2019).
+
+- #### Sample Data
+
+In the "data" folder, we have added a new folder named "sample," which contains a dataset file named "dataset." This file includes the first fifty rows of the Weibo dataset, serving as an illustrative sample for reference.
 
 
 ### Run the code
