@@ -43,6 +43,7 @@ In the "data" folder, we have added a new folder named "sample," which contains 
 #Run at the root of this repo:
 python setup.py build_ext --inplace
 # generate information cascades
+# for data you can choose from data=[data/weibo,data/aps,data/sample]
 python gen_cas.py --data=data/weibo/ --observation_time=1800 --prediction_time=86400
 # generate cascade graph
 python gen_emb.py --data=data/weibo/ --observation_time=1800 --max_seq=100
